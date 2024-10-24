@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Move navbar to the right */
+}
+
+.navbar button {
+    padding: 8px 15px; /* Smaller button size */
+    margin-left: 5px; /* Space between buttons */
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+    border-radius: 5px;
+    background-color: #ccc; /* Default color */
+    color: black; /* Text color */
+}
+
+/* Button color styles */
+.login-active {
+    background-color: #3498db; /* Blue */
+    color: white;
+}
+
+.signup-active {
+    background-color: #2ecc71; /* Green */
+    color: white;
+}
+
+.logout-active {
+    background-color: #e74c3c; /* Red */
+    color: white;
+}
+
+.form-container {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #2ecc71; /* Default for submit buttons */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
